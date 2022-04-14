@@ -3,11 +3,12 @@
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <!-- Header-Menu-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
         <!-- Logo -->
         <a class="navbar-brand" href="#">TODO Logo</a>
         <!-- Toggle button for smaller screens -->
@@ -39,99 +40,103 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>3D Printshop</h1>
+    <main role="main">
+        <!-- Home -->
+        <div class="background-home d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h1>3D Printshop</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
+                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div style="height:500px;"></div>
 
-    <!-- Tutorial -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 id="title-tutorial">Tutorial</h2>
+        <!-- Tutorial -->
+        <div class="background-tutorial-contact">
+            <div class="container">
+                <div class="row pt-4">
+                    <div class="col-sm-12">
+                        <h2 id="title-tutorial">Tutorial</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>The tutorials are made in Amharic. There are English subtitles for our non-Amharic speaking
+                            friends.</p>
+                    </div>
+                </div>
+                <!-- Tutorial Video -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        TODO VIDEO / VIDEO LINK
+                    </div>
+                </div>
+                <!-- Links -->
+                <div class="row mt-4 pb-4">
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Tinkercad</h5>
+                                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                <p class="card-text">Tinkercad is an easy-to-use software to create 3D-models.</p>
+                                <a href="https://www.tinkercad.com" class="card-link">Tinkercad</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Autocad</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"></h6>
+                            <p class="card-text">Autocad is a more advanced software to create 3D-models.</p>
+                            <a href="https://www.autodesk.com/products/autocad/overview" class="card-link">Autocad</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-        </div>
-        <!-- Tutorial Video -->
-        <div class="row">
-            <div class="col-sm-12">
-                <h3>Tutorial Video</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                TODO VIDEO / VIDEO LINK
-            </div>
-        </div>
-        <!-- Links -->
-        <div class="row">
-            <div class="col-sm-12">
-                <dl>
-                    <dt>Useful Links</dt>
-                    <dd>
-                        <a href="https://www.tinkercad.com" target="_blank">Tinkercad</a>
-                    </dd>
-                    <dd>
-                        <a href="https://www.autodesk.com/products/autocad/overview" target="_blank">Autocad</a>
-                    </dd>
-                    <dt>Example 3D models</dt>
-                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</dd>
-                    <dd>
-                        <a href="files/3d_models/git.pdf" target="_blank">3D Model TODO add right file</a>
-                    </dd>
-                </dl>
-            </div>
-        </div>
-        <!-- 3D models to download -->
-        <!--<div class="row">
-            <div class="col-sm-12">
-                <h3>Example 3D Models</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <dl>
-                    <dd>
-                        <a href="files/3d_models/git.pdf">3D Model TODO add right file</a>
-                    </dd>
-                </dl>
-            </div>
-        </div>-->
-    </div>
 
-    <!-- Contact -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h3 id="title-contact">Contact</h3>
+
+        <!-- Contact -->
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <h3 id="title-contact">Contact</h3>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <p>If you have any problems regarding your print, please contact our team or visit us in the
+                        printing shop.</p>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <h4>Where to find us</h4>
+                    <dl>
+                        <dd>Hawassa University Main Campus</dd>
+                        <dd>Building TODO</dd>
+                    </dl>
+                </div>
+                <div class="col-sm-4">
+                    <h4>How to reach us</h4>
+                    <dl>
+                        <dd>E-Mail: TODO@todo.com</dd>
+                        <dd>Phone +251TODO</dd>
+                    </dl>
+                </div>
+                <div class="col-sm-2"></div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <h4>Address</h4>
-                <dl>
-                    <dd>Hawassa University Main Campus</dd>
-                    <dd>Building TODO</dd>
-                </dl>
-            </div>
-            <div class="col-sm-6">
-                <h4>How to reach us</h4>
-                <dl>
-                    <dd>E-Mail: TODO@todo.com</dd>
-                    <dd>Phone +251TODO</dd>
-                </dl>
-            </div>
-        </div>
-    </div>
-    
+
+    </main>
 
     <!-- Footer -->
     <footer class="footer mt-auto py-3 navbar-nav">
