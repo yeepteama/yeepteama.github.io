@@ -23,16 +23,10 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Order</a>
+                    <a class="nav-link" href="#title-order">Order</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#title-tutorial">Tutorial</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#title-contact">Contact</a>
@@ -45,34 +39,34 @@
         <div class="background-home d-flex align-items-center">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <h1>3D Printshop</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                            gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <div class="col-sm-12 text-center home-title">
+                        <h1>Hawassa 3D printing</h1>
+                        <p>We are making the manufacturing process better and easier!</p>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!--<form method="post" enctype="application/x-www-form-urlencoded">
-            <div class="form-row">
-                <div class="col-md-4 mb-3">
-                  <label for="validationDefault01">First name</label>
-                  <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+        
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <h2>Welcome</h2>
+                    <p>Hello! Welcome to the Hawassa 3D printing website. The only 3D printing shop available at the campus. We are going to print your design with high speed and quality. We are able to print your design up to a length of 250mm, width of 210mm and height of 210mm in different colors. If you don’t have an existing STL-file yet, please check out our tutorial area. Please follow the guide below for the ordering process. We gladly inform you about your request per email.</p>
                 </div>
+                <div class="col-sm-2"></div>
             </div>
-            <div class="form-actions">
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-
-        </form>-->
+        </div>
 
         <!-- Order -->
-        <div class="container-sm border my-3 border bg-light">
+        <div class="container-sm border my-3 border bg-light" id="title-order">
             </br>
             <h4 style="text-align: center; color: green; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" ">ORDER</h4>
-            <h5>Here is the description place to explain the information about maximimu size and How to link.................<a href="
-                #">how to</a></h5>
+            <p>
+                Order your printing part here. <b>Please note that we cannot print parts bigger than 210x210x250.</b> If you haven't designed your part yet and want to know how, you can learn it <a href="#title-tutorial">here</a>.
+            </p>
+            <p><b>Pricing:</b> We charge a general fee of 30 birr per print. Additionally it costs 35 birr per hour it takes to finish your print. <br/> Example: If your print takes two hours, the price is: 30 birr + 70 birr (2 x 35 birr) = 100 birr </p>
+            <p><b style="color:red">Attention:</b> The form opens your email application with the data you entered. <b>To complete the order you have to attach your 3d-printing file and send the email! </b></p>
                 </br>
                 <form method="post" enctype="application/x-www-form-urlencoded" class="needs-validation"
                     id="need-validation">
@@ -168,36 +162,54 @@
         <div class="background-tutorial-contact">
             <div class="container">
                 <div class="row pt-4">
-                    <div class="col-sm-12">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
                         <h2 id="title-tutorial">Tutorial</h2>
                     </div>
+                    <div class="col-sm-2"></div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-12">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
                         <p>The tutorials are made in Amharic. There are English subtitles for our non-Amharic speaking
                             friends.</p>
                     </div>
+                    <div class="col-sm-2"></div>
                 </div>
                 <!-- Tutorial Video -->
                 <div class="row">
-                    <div class="col-sm-12">
-                        <video controls>
-                            <source src="/files/videos/3d_printing_on_tinker_card.mp4" type="video/mp4">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <h3>Tinkercad</h3>
+                        <video width="100%" controls>
+                            <source src="files/videos/3d_printing_on_tinker_card.mp4" type="video/mp4">
                             Sorry, your browser doesn't support embedded videos.
                         </video>
                     </div>
+                    <div class="col-sm-2"></div>
                 </div>
 
-                <div class="row">
-                    <div class="col-sm-12">
-                        <video controls>
-                            <source src="/files/videos/3dprint on solidwork.mp4" type="video/mp4">
+                <div class="row pt-4">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <h3>Solidwork</h3>
+                        <video width="100%" controls>
+                            <source src="files/videos/3dprint on solidwork.mp4" type="video/mp4">
                             Sorry, your browser doesn't support embedded videos.
                         </video>
                     </div>
+                    <div class="col-sm-2"></div>
                 </div>
                 <!-- Links -->
+                <div class="row pt-4">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">
+                        <h3>Tools</h3>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
                 <div class="row mt-4 pb-4">
+                    <div class="col-sm-2"></div>
                     <div class="col-sm-4">
                         <div class="card" style="width: 18rem;">
                             <div class="card-body">
@@ -209,13 +221,37 @@
                         </div>
                     </div>
                     <!-- TODO -->
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Autocad</h5>
-                            <h6 class="card-subtitle mb-2 text-muted"></h6>
-                            <p class="card-text">Autocad is a more advanced software to create 3D-models.</p>
-                            <a href="https://www.autodesk.com/products/autocad/overview" class="card-link">Autocad</a>
+                    <div class="col-sm-4">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Solidwork</h5>
+                                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                <p class="card-text">Solidwork is a more advanced software to create 3D-models.</p>
+                                <a href="https://www.solidworks.com/" class="card-link">Solidwork</a>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                
+                <div class="row pt-4">
+                    <div class="col-sm-12">
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">File</th>
+                                <th scope="col">Description</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><a href="files/3d_models/wall-mount.stl">Wall Mount</a></td>
+                                <td>Case with wall mount for ESP32</td>
+                              </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -245,14 +281,13 @@
                     <h4>Where to find us</h4>
                     <dl>
                         <dd>Hawassa University Main Campus</dd>
-                        <dd>Building TODO</dd>
                     </dl>
                 </div>
                 <div class="col-sm-4">
                     <h4>How to reach us</h4>
                     <dl>
-                        <dd>E-Mail: TODO@todo.com</dd>
-                        <dd>Phone +251TODO</dd>
+                        <dd>E-Mail: hawassa3dp@gmail.com</dd>
+                        <dd>Phone +251</dd>
                     </dl>
                 </div>
                 <div class="col-sm-2"></div>
@@ -297,8 +332,6 @@
             console.log()
 
             if (form.checkValidity() === false) {
-                //event.preventDefault();
-                //event.stopPropagation();
                 form.classList.add('was-validated');
             } else {
                 var firstName = document.getElementById("firstName").value;
@@ -311,7 +344,7 @@
                 var height = document.getElementById("height").value;
                 var thickness = document.getElementById("thickness").value;
 
-                var body = "<b>New Order</b>: \n First Name: " + firstName +
+                var body = "New Order: \n First Name: " + firstName +
                     "\n Last Name: " + lastName + "\n Email: " + email +
                     "\n quality: " + quality + "\n quantity: " + quantity +
                     "\n color: " + color + "\n width: " + width +
